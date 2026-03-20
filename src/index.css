@@ -94,19 +94,6 @@ footer {
         font-size: 1rem;
     }
 
-    nav li {
-        font-size: 0.8rem;
-        margin: 0.2rem;
-    }
-
-    .active {
-        background-color: rgba(73, 56, 56, 0.6);
-    }
-
-    .logo {
-        font-size: 1rem;
-        margin-left: 0;
-    }
 }
 
 
