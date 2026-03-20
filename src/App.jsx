@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import NavBar from "./components/NavBar.jsx"
-import Home from './pages/home'
-import About from './pages/about.jsx'
-import Contact from './pages/contact'
-import Cv from './pages/cv'
-import Portfolio from './pages/portfolio'
+import NavBar from "./components/NavBar"
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Cv from './pages/Cv'
+import Portfolio from './pages/Portfolio'
 
 function App() {
 
