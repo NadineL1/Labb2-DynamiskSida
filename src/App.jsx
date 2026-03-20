@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import NavBar from "./components/NavBar.jsx"
 import Home from './pages/home'
 import About from './pages/about.jsx'
 import Contact from './pages/contact'
@@ -7,9 +8,9 @@ import Portfolio from './pages/portfolio'
 
 function App() {
 
-
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
