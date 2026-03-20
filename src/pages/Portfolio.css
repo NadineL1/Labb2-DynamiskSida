@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.heading h1 {
+.heading {
     text-align: center;
     font-size: 3rem;
     color: var(--secondarycolor);
