@@ -5,7 +5,7 @@ export default function Cv() {
     return (
         <>
             <div className='page-title'>
-                <h1 id='name'>{cv.name}</h1>
+                <h1 id='myname'>{cv.name}</h1>
                 <h2 className='h2'>{cv.headline}</h2>
             </div>
             <section className='cv-content-container'>
