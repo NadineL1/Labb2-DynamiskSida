@@ -1,0 +1,76 @@
+.cv-content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70rem;
+    margin: 2rem auto;
+}
+
+.page-title {
+    text-align: center;
+}
+
+#name {
+    font-size: 3rem;
+    margin: 2rem auto 0.3rem auto;
+    color: var(--secondarycolor);
+}
+
+.h2 {
+    font-size: 2rem;
+    color: var(--primarycolor);
+}
+
+h3 {
+    font-size: 1.5rem;
+
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.content {
+    width: 30rem;
+    margin: 2rem auto;
+}
+
+.content ul {
+    display: block;
+    list-style-type: "- ";
+    padding-left: 10px;
+}
+
+.content p,
+h3,
+h4 {
+    color: var(--secondarycolor);
+    margin-bottom: 0.3rem;
+}
+
+.content-part {
+    margin-bottom: 2rem;
+}
+
+
+/*When screen is too small for grid w 2 columns*/
+@media (max-width:1100px) {
+    .cv-content-container {
+        margin: 1rem 0.5rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:48rem) {
+    .content {
+        max-width: 80vw;
+    }
+}
+
+@media print {
+
+    header,
+    footer,
+    nav {
+        display: none !important;
+    }
+}
