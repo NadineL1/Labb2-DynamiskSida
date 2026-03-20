@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 import './Portfolio.css'
 
 import giftlist from '../assets/ChristmasList.PNG'
@@ -6,6 +8,24 @@ import icecream from '../assets/icecream.jpg'
 import inheritance from '../assets/Arv.PNG'
 
 export default function Portfolio() {
+
+
+    // get list of all my public projects from the github API
+    const [projects, setProjects] = useState([]);
+
+    // runs when page renders first time and when things are updated
+    // fetches response, changes it to json and to use it
+    useEffect(() => {
+        fetch("https://api.github.com/users/NadineL1/repos")
+            .then((response) => response.json())
+            .then((data) => {
+                console.log();
+                setProjects(data);
+            })
+    }, [])
+
+
+
     return (
         <>
             <h1 className='heading'>My portfolio projects</h1>
@@ -100,6 +120,21 @@ export default function Portfolio() {
                         <a href="#" className="modal-close">&times;</a>
                     </div>
                 </div>
+
+                {projects.map((project) => {
+                    return (
+                        <div className="card">
+                            <h2>{project.name}</h2>
+                            <p>Language: {project.language}</p>
+                            <p>Description: {project.description}</p>
+                            <div className="buttons">
+                                <a href={project.html_url}>View my code on Github</a>
+                            </div>
+                        </div>
+                    )
+                })}
+
+
 
 
             </section>
