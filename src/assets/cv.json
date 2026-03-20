@@ -1,0 +1,37 @@
+{
+    "name": "Nadine Lindell",
+    "headline": ".Net Fullstack Developer",
+    "personalProfile": "En kreativ problemlösare med ett skarpt öga för detaljer. Jag älskar att utvecklas, utveckla människor i min närhet , och är nu i processen av att lära mig utveckla program och webbsidor.",
+    "school": {
+        "name": "Chas Academy",
+        "role": ".Net FullstackUtvecklare 2025",
+        "details": [
+            "Utbildningen fokuserar på backendutveckling i Microsoft .NET, C#, visual studio, databaser i Microsoft SQL Server, Entity Framework, Cloud med Azure, Visual Studio, C#, Frontendutveckling med Javascript, React, HTML och CSS, versionshantering med git samt Agil utveckling med Scrum/Kanban.",
+            "Workshops veckovis",
+            "Medverkar i skolans ledningsgrupp"
+        ]
+    },
+    "work": [
+        {
+            "role": "Butikschef",
+            "companyAndYears": "Lagerhaus AB 2022- (tjänstledig fr höst 2025)",
+            "tasks": [
+                "Ansvarig chef för två butiker i Stockholms innerstad",
+                "Presterade högt genom flera KPI:er, främst fokus: kundnöjdhet och försäljningsökning.",
+                "Utvecklade on-boarding-processer, guide för introduktions utbildning",
+                "Skapade starka grupper med hög social trygghet och arbetsglädje",
+                "Vidareutvecklade flera medarbetare till ledningsposition"
+            ]
+        },
+        {
+            "role": "Butikschef",
+            "companyAndYears": "Kjell & Company AB 2020-2022",
+            "tasks": [
+                "Analyserade försäljning och processer dagligen för att optimera arbetssätt, hitta brister och lösningar",
+                "Medarbetar-introduktion och vidareutveckling, uppmuntrade till eget initiativ. Att bli “problem-konstaterare” för att sedan bli problemlösare.",
+                "Jobbade starkt med “Service i världsklass”",
+                "Förtroendebyggande arbete genom teknisk kunskap, behovsanpassad rådgivning och empatiskt, effektivt bemötande"
+            ]
+        }
+    ]
+}
