@@ -1,0 +1,45 @@
+nav {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primarycolor);
+    height: 5rem;
+}
+
+.logo {
+    font-family: var(--headerfont);
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    font-family: var(--primaryfont);
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+nav a {
+    color: var(--secondarycolor);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: color 0.5s ease-in;
+}
+
+/*hover effect if a is not active page*/
+nav a:hover:not(.active) {
+    color: white;
+}
+
+/*marking the active page*/
+.active {
+    background-color: var(--secondarycolor);
+    color: white;
+}
