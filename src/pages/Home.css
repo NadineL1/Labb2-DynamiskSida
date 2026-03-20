@@ -43,8 +43,11 @@
 
 .hero-content h1 {
     color: var(--secondarycolor);
+    font-size: 2.5rem;
     text-shadow: 1px 1px 10px var(--primarycolor);
     margin-bottom: 0.3rem;
+    text-align: start;
+    margin-top: 0;
 }
 
 .hero-content h2 {
