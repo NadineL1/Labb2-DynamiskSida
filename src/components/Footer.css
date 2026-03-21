@@ -1,0 +1,15 @@
+footer {
+    min-width: 100%;
+    padding: 1.5rem;
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links img {
+    width: 70%;
+}

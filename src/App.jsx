@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Cv from './pages/Cv'
 import Portfolio from './pages/Portfolio'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/cv" element={<Cv />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
