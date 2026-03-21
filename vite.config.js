@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()], base: "/Labb2-DynamiskSida/"
+  plugins: [react()], base: '/Labb2-DynamiskSida/'
 })

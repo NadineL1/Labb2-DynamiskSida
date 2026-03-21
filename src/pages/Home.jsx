@@ -1,5 +1,6 @@
 import './Home.css'
 import hero from '../assets/hero.jpg'
+import { Link } from "react-router-dom"
 
 export default function Home() {
     return (
@@ -12,8 +13,8 @@ export default function Home() {
                         I'm
                         exited to learn more and become at least 1% better each day. Former store-manager with a big
                         creative streak.</p>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
+                    <div><Link to="/portfolio">Portfolio</Link>
+                        <Link to="/Contact">Contact</Link></div>
                 </div>
                 <div className="heroimg-container">
                     <img className="hero-img" src={hero}

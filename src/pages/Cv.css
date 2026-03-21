@@ -51,6 +51,19 @@ h4 {
     margin-bottom: 2rem;
 }
 
+/*forcing the body to always fill screen and "pushing" down footer to bottom */
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
 
 /*When screen is too small for grid w 2 columns*/
 @media (max-width:1100px) {
