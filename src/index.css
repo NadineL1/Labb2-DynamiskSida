@@ -56,46 +56,6 @@ main {
 
 
 
-footer {
-    min-width: 100%;
-    padding: 1.5rem;
-    background-color: var(--primarycolor);
-    color: var(--secondarycolor);
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-links img {
-    width: 70%;
-}
-
-/*When screen is phonesize*/
-@media (max-width:48rem) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-}
-
 
 /*Accessibility*/
 @media (prefers-reduced-motion: reduce) {
